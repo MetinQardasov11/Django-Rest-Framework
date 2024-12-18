@@ -1,0 +1,73 @@
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Virtual environment
+env/
+venv/
+
+# Local settings
+*.local_settings.py
+.env
+.env.*
+
+# Django specific
+db.sqlite3
+/media/
+/staticfiles/
+/*.log
+celerybeat-schedule
+
+# Django migrations
+*/migrations/*.py
+!*/migrations/__init__.py
+
+# IDEs and editors
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Coverage reports
+htmlcov/
+.coverage
+*.cover
+*.coverage.*
+
+# Testing and CI
+.pytest_cache/
+.tox/
+.jupyter/
+nosetests.xml
+coverage.xml
+
+# Node and frontend (if applicable)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Static file collections (if using collectstatic)
+static/
+staticfiles/
+
+# Build
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Pipfile and Poetry (optional, if not committing lock files)
+Pipfile.lock
+poetry.lock
+
+# Other
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
